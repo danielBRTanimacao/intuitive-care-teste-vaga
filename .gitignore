@@ -3,3 +3,9 @@ venv
 
 # Zip files
 zipFiles
+
+# Csvs
+csvs
+
+# Pdfs
+pdfs
