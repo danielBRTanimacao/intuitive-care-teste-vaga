@@ -1,6 +1,6 @@
 # Intuitive Care testes vaga 📚
 
-> Um pouco sobre o projeto
+> Repositorio criado para resolver testes cotidianos com programação utilizando tecnologias como, Java, Python e Vue.js.
 
 ## Requisitos ⚙️
 
@@ -39,8 +39,14 @@ pip -r requirements.txt
 
 ### Primeiro teste diretorio `test-web-scraping`
 
-Como rodar o teste
+Como rodar o teste, basta apenas rodar o `main.py` na pasta `test-web-scraping` ele automaticamente ira fazer os requests e salvar os arquivos necessarios
+
+### Segundo teste diretorio `test-transform-data`
+
+Para o segundo teste basta modificar a linha 11 na `main.py`
 
 ```
-
+your_name = "Daniel"  # Pode alterar o nome
 ```
+
+### Terceiro teste diretorio `test-data-base`
