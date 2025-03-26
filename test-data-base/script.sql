@@ -14,13 +14,13 @@ CREATE TABLE financial_statements (
 );
 
 COPY operators(cnpj, operator_name, status, updated_date)
-FROM '/path/to/csv/Relatorio_cadop.csv'
+FROM '../csvs/Relatorio_cadop.csv'
 DELIMITER ','
 CSV HEADER
 ENCODING 'UTF8';
-
+/path/to/csv
 COPY financial_statements(operator_cnpj, reference_date, category, expense)
-FROM '/path/to/csv/financial_statements_2023.csv'
+FROM '../zips2023/1T2023.csv' -- Para exemplo utilizei apenas 1 csv
 DELIMITER ','
 CSV HEADER
 ENCODING 'UTF8';
