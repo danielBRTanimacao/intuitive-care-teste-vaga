@@ -4,7 +4,12 @@
 
 ## Requisitos ⚙️
 
-Antes de clonar o projeto e necessario
+Antes de clonar o projeto é necessario instalar as seguintes tecnologias
+
+### DataBase 🐋
+
+-   Necessario `PostgreSql`
+-   `Dbeaver` (recomendado)
 
 ### BACKEND 🌑
 
@@ -50,3 +55,42 @@ your_name = "Daniel"  # Pode alterar o nome
 ```
 
 ### Terceiro teste diretorio `test-data-base`
+
+Para rodar o script recomende utilizar uma interface como o `dbeaver`
+
+#### Como instalar dbeaver linux
+
+```
+sudo snap install dbeaver-ce
+```
+
+#### Como instalar no windows / MacOS
+
+Link direto pela [documentação oficial](https://dbeaver.io/download/)
+
+#### Abrindo o Dbeaver
+
+Crie o projeto `PostgreSql` abra as tabela e o `script.sql` em `test-data-base`
+
+Altere o caminho dos arquivos se for rodar o `psql` localmente
+
+```
+'/home/danie/Programação/intuitive-care-teste-vaga/csvs/Relatorio_cadop.csv'
+```
+
+importe o arquivo csv e rode query por query
+
+### Quarto teste diretorio `test-api`
+
+Abra dois terminais entre no diretorio `/backend/main.py` rode a aplicação
+
+esse e o backend da aplicação não precisa ser alterado nada
+
+Para rodar o front end entre no diretorio `/frontend/`
+
+instale as dependencias node
+
+```
+npm i
+npm run dev
+```
